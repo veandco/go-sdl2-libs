@@ -12,6 +12,8 @@
 #	else
 #	    include "SDL_config_linux_386.h"
 #	endif
+#elif defined(__arm__)
+#	include "SDL_config_linux_arm.h"
 #elif defined(__ANDROID__)
 #	include "SDL_config_android_arm.h"
 #else
